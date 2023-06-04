@@ -2,14 +2,14 @@
   <div class="wrapper">
     <side-bar>
       <template slot="links">
-        <sidebar-link to="/dashboard" :name="$t('sidebar.dashboard')" icon="tim-icons icon-chart-pie-36"/>
+        <sidebar-link to="/dashboard" :name="$t('sidebar.dashboard')" icon="tim-icons icon-chart-pie-36"/> <!--Hier Sidebar anpassen!-->
       </template>
     </side-bar>
     <div class="main-panel">
       <top-navbar></top-navbar>
 
       <dashboard-content @click.native="toggleSidebar">
-
+      
       </dashboard-content>
 
       <content-footer></content-footer>
